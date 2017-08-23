@@ -69,7 +69,6 @@ class LoginController extends Controller
 	# 传递username   usercode(可选)
 	# 返回json格式的access_token
 	public function actionRemoteindex(){
-		
 		$key = CRequest::param("key");
 		$configKey = CConfig::param("remote_get_access_token_key");
 		$username = CRequest::param("username");
