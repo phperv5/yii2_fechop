@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aefdcb9-e8b4-4a58-be11-943c439f34d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/1a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/1b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/3a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/3b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/5a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/5b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/6a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/6b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/s03b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/s03c.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/s06.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/s07.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/s08.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/v01a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/arrow/v01b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/a_h_p_title.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/btn_click_to_shop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/btn_signin.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/btn_signin_h28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/curr.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/digg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/m_tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/nophoto_m.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/p_offer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/p_offer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/pro_ch_bf_rate_tx_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/pro_l_featured.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/pro_l_hot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/pro_l_new.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/selectbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/tab_row_t.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/tit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/ver_line_500.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/bg/webbook.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/add_to_cart_suit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/bg_btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/bg_button_gold.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/bg_button_gray.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/btn_go2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/btn_goIcon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/click_to_shop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/submit_a_ticket.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/btn/submit_question.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/w/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/w/bg_photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/w/bg_x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appfront/theme/terry/theme01/assets/images/w/bg_x_trans_t.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appfront/web/.gitignore" afterPath="$PROJECT_DIR$/appfront/web/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1107,21 +1060,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_h.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style_h.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appfront/theme/terry/theme01/assets/css/style_h.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
               <caret line="36" column="77" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appfront/theme/terry/theme01/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="462" column="80" lean-forward="false" selection-start-line="462" selection-start-column="74" selection-end-line="462" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -1512,23 +1455,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widgets" />
+              <option name="myItemId" value="appadmin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1542,287 +1469,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
+              <option name="myItemId" value="appadmin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2_fechop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appfront" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terry" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme01" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1910,15 +1561,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503618691492</updated>
-      <workItem from="1503618692636" duration="3361000" />
+      <workItem from="1503618692636" duration="4192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3361000" />
+    <option name="totallyTimeSpent" value="4192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -3109,18 +2760,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appfront/theme/terry/theme01/assets/css/style_h.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" column="77" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appfront/theme/terry/theme01/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="462" column="80" lean-forward="false" selection-start-line="462" selection-start-column="74" selection-end-line="462" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appfront/theme/terry/theme01/assets/css/style_h.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="36" column="77" lean-forward="false" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="77" />
           <folding />
         </state>
       </provider>
