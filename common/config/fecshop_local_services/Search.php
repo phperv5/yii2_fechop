@@ -36,14 +36,13 @@ return [
                     'pt' => 'portuguese',
                 ],
             ],
-              //  'xunSearch'  => [
-              //    'fuzzy'         => true,  // 是否开启模糊查询
-              //  'synonyms'      => true, //是否开启同义词翻译
-              //  'searchLang'    => [
-              //      'zh' => 'chinese',
-              //  ],
-             // ],
-
+            'xunSearch'  => [
+                'fuzzy'         => true,  // 是否开启模糊查询
+                'synonyms'      => true, //是否开启同义词翻译
+                'searchLang'    => [
+                    'zh' => 'chinese',
+                ],
+            ],
         ],
     ],
 ];

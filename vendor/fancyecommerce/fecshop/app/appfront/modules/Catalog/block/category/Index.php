@@ -53,11 +53,11 @@ class Index
         // 这样是为了防止恶意攻击，也就是发送很多不同的页面个数的链接，绕开缓存。
         $this->getNumPerPage();
         //echo Yii::$service->page->translate->__('fecshop,{username}', ['username' => 'terry']);
-        if(!$this->initCategory()){
+        if (!$this->initCategory()) {
             Yii::$service->url->redirect404();
             return;
         }
-        
+
         // change current layout File.
         //Yii::$service->page->theme->layoutFile = 'home.php';
 
@@ -66,17 +66,17 @@ class Index
         $this->_productCount = $productCollInfo['count'];
         //echo $this->_productCount;
         return [
-            'title'        => $this->_title,
-            'name'            => Yii::$service->store->getStoreAttrVal($this->_category['name'], 'name'),
-            'image'            => $this->_category['image'] ? Yii::$service->category->image->getUrl($this->_category['image']) : '',
-            'description'    => Yii::$service->store->getStoreAttrVal($this->_category['description'], 'description'),
-            'products'        => $products,
-            'query_item'    => $this->getQueryItem(),
-            'product_page'    => $this->getProductPage(),
-            'refine_by_info'=> $this->getRefineByInfo(),
-            'filter_info'    => $this->getFilterInfo(),
-            'filter_price'    => $this->getFilterPrice(),
-            'filter_category'=> $this->getFilterCategoryHtml(),
+            'title' => $this->_title,
+            'name' => Yii::$service->store->getStoreAttrVal($this->_category['name'], 'name'),
+            'image' => $this->_category['image'] ? Yii::$service->category->image->getUrl($this->_category['image']) : '',
+            'description' => Yii::$service->store->getStoreAttrVal($this->_category['description'], 'description'),
+            'products' => $products,
+            'query_item' => $this->getQueryItem(),
+            'product_page' => $this->getProductPage(),
+            'refine_by_info' => $this->getRefineByInfo(),
+            'filter_info' => $this->getFilterInfo(),
+            'filter_price' => $this->getFilterPrice(),
+            'filter_category' => $this->getFilterCategoryHtml(),
             //'content' => Yii::$service->store->getStoreAttrVal($this->_category['content'],'content'),
             //'created_at' => $this->_category['created_at'],
         ];
@@ -93,6 +93,7 @@ class Index
 
         return $filter_category;
     }
+
     /**
      * @property $filter_category | Array
      * 通过递归的方式，得到分类以及子分类的html。
@@ -112,7 +113,7 @@ class Index
                 if (isset($cate['current']) && $cate['current']) {
                     $current = 'class="current"';
                 }
-                $str .= '<li '.$current.'><a href="'.$url.'">'.$name.'</a>';
+                $str .= '<li ' . $current . '><a href="' . $url . '">' . $name . '</a>';
                 if (isset($cate['child']) && is_array($cate['child']) && !empty($cate['child'])) {
                     $str .= $this->getFilterCategoryHtml($cate['child']);
                 }
@@ -123,6 +124,7 @@ class Index
         //exit;
         return $str;
     }
+
     /**
      * 得到产品页面的toolbar部分
      * 也就是分类页面的分页工具条部分。
@@ -133,25 +135,26 @@ class Index
         $productCount = $this->_productCount;
         $pageNum = $this->getPageNum();
         $config = [
-            'class'        => 'fecshop\app\appfront\widgets\Page',
-            'view'        => 'widgets/page.php',
-            'pageNum'        => $pageNum,
-            'numPerPage'    => $productNumPerPage,
-            'countTotal'    => $productCount,
-            'page'            => $this->_page,
+            'class' => 'fecshop\app\appfront\widgets\Page',
+            'view' => 'widgets/page.php',
+            'pageNum' => $pageNum,
+            'numPerPage' => $productNumPerPage,
+            'countTotal' => $productCount,
+            'page' => $this->_page,
         ];
 
         return Yii::$service->page->widget->renderContent('category_product_page', $config);
     }
+
     /**
      * 分类页面toolbar部分：
      * 产品排序，产品每页的产品个数等，为这些部分提供数据。
      */
     protected function getQueryItem()
     {
-        $category_query  = Yii::$app->controller->module->params['category_query'];
-        $numPerPage      = $category_query['numPerPage'];
-        $sort            = $category_query['sort'];
+        $category_query = Yii::$app->controller->module->params['category_query'];
+        $numPerPage = $category_query['numPerPage'];
+        $sort = $category_query['sort'];
         $frontNumPerPage = [];
         if (is_array($numPerPage) && !empty($numPerPage)) {
             $attrUrlStr = $this->_numPerPage;
@@ -160,9 +163,9 @@ class Index
                 //var_dump($url);
                 //exit;
                 $frontNumPerPage[] = [
-                    'value'    => $np,
-                    'url'        => $urlInfo['url'],
-                    'selected'    => $urlInfo['selected'],
+                    'value' => $np,
+                    'url' => $urlInfo['url'],
+                    'selected' => $urlInfo['selected'],
                 ];
             }
         }
@@ -170,7 +173,7 @@ class Index
         if (is_array($sort) && !empty($sort)) {
             $attrUrlStr = $this->_sort;
             $dirUrlStr = $this->_direction;
-            foreach ($sort as $np=>$info) {
+            foreach ($sort as $np => $info) {
                 $label = $info['label'];
                 $direction = $info['direction'];
                 $arr['sort'] = [
@@ -185,10 +188,10 @@ class Index
                 //var_dump($urlInfo);
                 //exit;
                 $frontSort[] = [
-                    'label'     => $label,
-                    'value'    => $np,
-                    'url'        => $urlInfo['url'],
-                    'selected'    => $urlInfo['selected'],
+                    'label' => $label,
+                    'value' => $np,
+                    'url' => $urlInfo['url'],
+                    'selected' => $urlInfo['selected'],
                 ];
             }
         }
@@ -199,6 +202,7 @@ class Index
 
         return $data;
     }
+
     /**
      * @return Array
      * 得到当前分类，侧栏用于过滤的属性数组，由三部分计算得出
@@ -222,6 +226,7 @@ class Index
 
         return $this->_filter_attr;
     }
+
     /**
      * 得到分类侧栏用于属性过滤的部分数据
      */
@@ -235,7 +240,7 @@ class Index
             $filter_attrs[] = 'price';
             //var_dump($filter_attrs);
             $currentUrl = Yii::$service->url->getCurrentUrl();
-            foreach ($get_arr as $k=>$v) {
+            foreach ($get_arr as $k => $v) {
                 $attr = Yii::$service->url->category->urlStrConvertAttrVal($k);
                 //echo $attr;
                 if (in_array($attr, $filter_attrs)) {
@@ -245,25 +250,26 @@ class Index
                     } else {
                         $refine_attr_str = Yii::$service->url->category->urlStrConvertAttrVal($v);
                     }
-                    $removeUrlParamStr = $k.'='.$v;
+                    $removeUrlParamStr = $k . '=' . $v;
                     $refine_attr_url = Yii::$service->url->removeUrlParamVal($currentUrl, $removeUrlParamStr);
                     $refineInfo[] = [
-                        'name' =>  $refine_attr_str,
-                        'url'  =>  $refine_attr_url,
+                        'name' => $refine_attr_str,
+                        'url' => $refine_attr_url,
                     ];
                 }
             }
         }
         if (!empty($refineInfo)) {
             $arr[] = [
-                'name'    => 'clear all',
-                'url'    => Yii::$service->url->getCurrentUrlNoParam(),
+                'name' => 'clear all',
+                'url' => Yii::$service->url->getCurrentUrlNoParam(),
             ];
             $refineInfo = array_merge($arr, $refineInfo);
         }
 
         return $refineInfo;
     }
+
     /**
      * 侧栏除价格外的其他属性过滤部分
      */
@@ -279,6 +285,7 @@ class Index
 
         return $filter_info;
     }
+
     /**
      * 侧栏价格过滤部分
      */
@@ -296,6 +303,7 @@ class Index
 
         return $filter;
     }
+
     /**
      * 格式化价格格式，侧栏价格过滤部分
      */
@@ -305,15 +313,16 @@ class Index
         $str = '';
         if ($f_price == '0' || $f_price) {
             $f_price = Yii::$service->product->price->formatPrice($f_price);
-            $str .= $f_price['symbol'].$f_price['value'].'---';
+            $str .= $f_price['symbol'] . $f_price['value'] . '---';
         }
         if ($l_price) {
             $l_price = Yii::$service->product->price->formatPrice($l_price);
-            $str .= $l_price['symbol'].$l_price['value'];
+            $str .= $l_price['symbol'] . $l_price['value'];
         }
 
         return $str;
     }
+
     /**
      * @property $str | String
      * 字符串转换成数组。
@@ -334,6 +343,7 @@ class Index
 
         return $arr;
     }
+
     /**
      * 用于搜索条件的排序部分
      */
@@ -371,6 +381,7 @@ class Index
             }
         }
     }
+
     /**
      * 分类页面的产品，每页显示的产品个数。
      * 对于前端传递的个数参数，在后台验证一下是否是合法的个数（配置里面有一个分类产品个数列表）
@@ -391,10 +402,10 @@ class Index
             } elseif (!$this->_numPerPageVal) {
                 if (isset($category_query_config['numPerPage']) && is_array($category_query_config['numPerPage'])) {
                     $numPerPageArr = $category_query_config['numPerPage'];
-                    if (in_array((int) $numPerPage, $numPerPageArr)) {
+                    if (in_array((int)$numPerPage, $numPerPageArr)) {
                         $this->_numPerPageVal = $numPerPage;
                     } else {
-                        throw new InvalidValueException('Incorrect numPerPage value:'.$numPerPage);
+                        throw new InvalidValueException('Incorrect numPerPage value:' . $numPerPage);
                     }
                 }
             }
@@ -402,6 +413,7 @@ class Index
 
         return $this->_numPerPageVal;
     }
+
     /**
      * 得到当前第几页
      */
@@ -409,19 +421,20 @@ class Index
     {
         $numPerPage = Yii::$app->request->get($this->_page);
 
-        return $numPerPage ? (int) $numPerPage : 1;
+        return $numPerPage ? (int)$numPerPage : 1;
     }
+
     /**
      * 得到当前分类的产品
      */
     protected function getCategoryProductColl()
     {
         $select = [
-                'sku', 'spu', 'name', 'image',
-                'price', 'special_price',
-                'special_from', 'special_to',
-                'url_key', 'score',
-            ];
+            'sku', 'spu', 'name', 'image',
+            'price', 'special_price',
+            'special_from', 'special_to',
+            'url_key', 'score',
+        ];
         $category_query = Yii::$app->getModule('catalog')->params['category_query'];
         if (is_array($category_query['sort'])) {
             foreach ($category_query['sort'] as $sort_item) {
@@ -429,15 +442,16 @@ class Index
             }
         }
         $filter = [
-            'pageNum'      => $this->getPageNum(),
-            'numPerPage'  => $this->getNumPerPage(),
-            'orderBy'      => $this->getOrderBy(),
-            'where'          => $this->_where,
-            'select'      => $select,
+            'pageNum' => $this->getPageNum(),
+            'numPerPage' => $this->getNumPerPage(),
+            'orderBy' => $this->getOrderBy(),
+            'where' => $this->_where,
+            'select' => $select,
         ];
         //var_dump($filter);exit;
         return Yii::$service->category->product->getFrontList($filter);
     }
+
     /**
      * 得到用于查询的where数组。
      */
@@ -455,15 +469,16 @@ class Index
         $filter_price = Yii::$app->request->get($this->_filterPrice);
         list($f_price, $l_price) = explode('-', $filter_price);
         if ($f_price == '0' || $f_price) {
-            $where[$this->_filterPriceAttr]['$gte'] = (float) $f_price;
+            $where[$this->_filterPriceAttr]['$gte'] = (float)$f_price;
         }
         if ($l_price) {
-            $where[$this->_filterPriceAttr]['$lte'] = (float) $l_price;
+            $where[$this->_filterPriceAttr]['$lte'] = (float)$l_price;
         }
         $where['category'] = $this->_primaryVal;
         //var_dump($where);exit;
         return $where;
     }
+
     /**
      * 分类部分的初始化
      * 对一些属性进行赋值。
@@ -476,12 +491,12 @@ class Index
         $category = Yii::$service->category->getByPrimaryKey($primaryVal);
         if ($category) {
             $enableStatus = Yii::$service->category->getCategoryEnableStatus();
-            if ($category['status'] != $enableStatus){
-                
+            if ($category['status'] != $enableStatus) {
+
                 return false;
             }
         } else {
-            
+
             return false;
         }
         $this->_category = $category;

@@ -38,7 +38,7 @@
                 'mobile'           => [
                     'enable'               => false,
                     'condition'            => ['phone'], // phone 代表手机，tablet代表平板。
-                    'redirectDomain'       => 'apphtml5.51openheart.cn', // 跳转后的url。
+                    'redirectDomain'       => 'fecshop.apphtml5.fancyecommerce.com/fr', // 跳转后的url。
                 ],
                 // 第三方账号登录配置
                 'thirdLogin' => [

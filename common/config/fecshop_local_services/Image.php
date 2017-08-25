@@ -12,19 +12,19 @@ return [
         'appbase'    => [
             'appfront' => [
                 'basedir'    => '@appimage/appfront',
-                'basedomain' => 'http://img.51openheart.cn/appimage/appfront',
+                'basedomain' => '//img.appfront.fancyecommerce.com',
             ],
             'apphtml5' => [
                 'basedir'    => '@appimage/apphtml5',
-                'basedomain' => 'http://img.51openheart.cn/appimage/apphtml5',
+                'basedomain' => '//img.apphtml5.fancyecommerce.com',
             ],
-            'appadmin' => [
-            	'basedir' => '@appimage/appadmin',
-            	'basedomain' => 'http://img.51openheart.cn/appimage/appadmin',
-            ],
+            //'appadmin' => [
+            //	'basedir' => '@appimage/appadmin',
+            //	'basedomain' => '//img.appadmin.fancyecommerce.com',
+            //],
             'common' => [
                 'basedir'    => '@appimage/common',
-                'basedomain' => 'http://img.51openheart.cn',
+                'basedomain' => '//img.fancyecommerce.com',
             ],
         ],
     ],
