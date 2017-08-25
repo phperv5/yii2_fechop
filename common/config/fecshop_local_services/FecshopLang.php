@@ -18,24 +18,24 @@ return [
             'en_US' => [
                 'code'                    => 'en',
             ],
-            'fr_FR' => [
-                'code'                    => 'fr',
-            ],
-            'de_DE' => [
-                'code'                    => 'de',
-            ],
-            'es_ES' => [
-                'code'                    => 'es',
-            ],
-            'ru_RU' => [
-                'code'                    => 'ru',
-            ],
-            'pt_PT' => [
-                'code'                    => 'pt',
-            ],
-            'zh_CN' => [
-                'code'                    => 'zh',
-            ],
+          //  'fr_FR' => [
+          //      'code'                    => 'fr',
+          //  ],
+          //  'de_DE' => [
+          //      'code'                    => 'de',
+          //  ],
+          //  'es_ES' => [
+          //      'code'                    => 'es',
+          //  ],
+           // 'ru_RU' => [
+            ///    'code'                    => 'ru',
+           // ],
+           // 'pt_PT' => [
+           //     'code'                    => 'pt',
+           // ],
+           // 'zh_CN' => [
+           //     'code'                    => 'zh',
+          //  ],
         ],
         // 默认语言。
         'defaultLangCode' => 'en',
